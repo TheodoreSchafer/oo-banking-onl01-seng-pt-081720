@@ -1,7 +1,7 @@
 class Transfer
 
-  def initialize(name)
-    @name = name
+  def initialize(sender, reciever, amount)
+    
 
 
   end
