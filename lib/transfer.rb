@@ -17,6 +17,8 @@ class Transfer
       sender.withdrawal(self.amount)
       receiver.deposit(self.amount)
       self.status = "complete"
+    else
+      self.status = "rejected"
 
     end
 
