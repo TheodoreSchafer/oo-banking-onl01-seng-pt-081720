@@ -18,11 +18,11 @@ class Transfer
     elsif @status == "complete"
       puts "Transaction was already executed"
 
+    end
+
+
+
   end
-
-
-
-end
 
 
 
