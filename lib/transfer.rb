@@ -9,8 +9,9 @@ class Transfer
   end
 
   def valid?
+    self.status
 
-    
+
   end
   # your code here
 end
