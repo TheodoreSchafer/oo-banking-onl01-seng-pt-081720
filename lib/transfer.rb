@@ -17,6 +17,8 @@ class Transfer
       @status = "rejected"
     elsif @status == "complete"
       puts "Transaction was already executed"
+    else
+      @sender.deposit
 
 
 
