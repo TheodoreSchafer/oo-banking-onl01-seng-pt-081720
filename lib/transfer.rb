@@ -13,8 +13,9 @@ class Transfer
   end
 
   def execute_transaction
+    if valid? && receiver.balancer > amount && self.status == "complete"
 
-    
+
   end
 
 
