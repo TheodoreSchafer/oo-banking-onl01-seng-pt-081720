@@ -16,6 +16,7 @@ class Transfer
     if sender.balance < @amount
       @status = "rejected"
     elsif @status == "complete"
+      puts "Transaction was already executed"
 
 
 
