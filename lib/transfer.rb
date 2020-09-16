@@ -1,7 +1,7 @@
 class Transfer
 
   def initialize(sender, reciever, amount, status="pending")
-
+    @sender = sender
 
 
   end
