@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid?
-    self.status
+    self.status == "open" && self.balance > 0 ? true : false
 
 
   end
